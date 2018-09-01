@@ -7,7 +7,7 @@ import time
 from discord.ext.commands import Bot
 from discord.ext import commands
 
-BOT_PREFIX = "?"
+BOT_PREFIX = "tk!"
 TOKEN = "NDIzODIyMjYyNjY4NjIzODcy.DZ--vQ.IKcVC8NiqlZbLVIxOCz7btxaUsg"
 
 client = Bot (command_prefix=BOT_PREFIX)
@@ -32,6 +32,8 @@ async def kill(ctx, *, member : discord.Member = None):
         return
 
     if member.id == "423822262668623872":
+        await client.say(ctx.message.author.mention + " Beni Mi Öldürüceksin")
+    if member.id == "409320814081736707":
         await client.say(ctx.message.author.mention + " Beni Mi Öldürüceksin")
     elif member.id == ctx.message.author:
         await client.say(ctx.message.author.mention + "YAZI2")
