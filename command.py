@@ -34,7 +34,7 @@ async def kill(ctx, *, member : discord.Member = None):
     if member.id == "423822262668623872":
         await client.say(ctx.message.author.mention + " Beni Mi Öldürüceksin")
     if member.id == "409320814081736707":
-        await client.say(ctx.message.author.mention + " Beni Mi Öldürüceksin")
+        await client.say(ctx.message.author.mention + " Sahibimi Mi Öldürüceksin")
     elif member.id == ctx.message.author:
         await client.say(ctx.message.author.mention + "YAZI2")
     else:
